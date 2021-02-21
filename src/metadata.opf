@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier opf:scheme="uuid" id="uuid_id">2d0afaf4-f847-4920-acf2-bbb2999ab61e</dc:identifier>
+    <dc:title>New Testament</dc:title>
+    <dc:creator opf:file-as="Knox, Ronald" opf:role="aut">Ronald Knox</dc:creator>
+    <dc:contributor opf:file-as="Porter, W. David" opf:role="bkp">David Porter</dc:contributor>
+    <dc:language>eng</dc:language>
+  </metadata>
+  <manifest>
+    <item href="matthew.xhtml" id="matthew" media-type="application/xhtml+xml" />
+    <item href="mark.xhtml" id="mark" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="matthew" />
+    <itemref idref="mark" />
+  </spine>
+  <guide/>
+</package>
