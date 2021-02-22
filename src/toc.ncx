@@ -16,15 +16,93 @@
 	<navMap>
 		<navPoint id="num_1" playOrder="1">
 			<navLabel>
-				<text>Matthew</text>
+				<text>Old Testament</text>
+			</navLabel>
+			<content src="genesis.xhtml" />
+			<navPoint id="num_2" playOrder="2">
+				<navLabel>
+					<text>Genesis</text>
+				</navLabel>
+				<content src="genesis.xhtml" />
+			</navPoint>
+
+			<navPoint id="num_22" playOrder="22">
+				<navLabel>
+					<text>The Psalsm</text>
+				</navLabel>
+				<content src="psalms.xhtml" />
+			</navPoint>
+
+			<navPoint id="num_28" playOrder="28">
+				<navLabel>
+					<text>Isaias (Isaiah)</text>
+				</navLabel>
+				<content src="isaias.xhtml" />
+			</navPoint>
+			<navPoint id="num_29" playOrder="29">
+				<navLabel>
+					<text>Jeremias (Jeremiah)</text>
+				</navLabel>
+				<content src="jeremias.xhtml" />
+			</navPoint>
+
+			<navPoint id="num_33" playOrder="33">
+				<navLabel>
+					<text>Daniel</text>
+				</navLabel>
+				<content src="daniel.xhtml" />
+			</navPoint>
+			<navPoint id="num_34" playOrder="34">
+				<navLabel>
+					<text>Osee (Hosea)</text>
+				</navLabel>
+				<content src="osee.xhtml" />
+			</navPoint>
+
+			<navPoint id="num_39" playOrder="39">
+				<navLabel>
+					<text>Michaeas (Micah)</text>
+				</navLabel>
+				<content src="michaeas.xhtml" />
+			</navPoint>
+
+			<navPoint id="num_46" playOrder="46">
+				<navLabel>
+					<text>I Machabees</text>
+				</navLabel>
+				<content src="i-machabees.xhtml" />
+			</navPoint>
+
+		</navPoint>
+		<navPoint id="num_48" playOrder="48">
+			<navLabel>
+				<text>New Testament</text>
 			</navLabel>
 			<content src="matthew.xhtml" />
-		</navPoint>
-		<navPoint id="num_2" playOrder="2">
-			<navLabel>
-				<text>Mark</text>
-			</navLabel>
-			<content src="mark.xhtml" />
+			<navPoint id="num_49" playOrder="49">
+				<navLabel>
+					<text>Matthew</text>
+				</navLabel>
+				<content src="matthew.xhtml" />
+			</navPoint>
+			<navPoint id="num_50" playOrder="50">
+				<navLabel>
+					<text>Mark</text>
+				</navLabel>
+				<content src="mark.xhtml" />
+			</navPoint>
+			<navPoint id="num_51" playOrder="51">
+				<navLabel>
+					<text>Luke</text>
+				</navLabel>
+				<content src="luke.xhtml" />
+			</navPoint>
+			<navPoint id="num_52" playOrder="52">
+				<navLabel>
+					<text>John</text>
+				</navLabel>
+				<content src="john.xhtml" />
+			</navPoint>
 		</navPoint>
 	</navMap>
 </ncx>
