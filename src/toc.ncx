@@ -25,6 +25,12 @@
 				</navLabel>
 				<content src="genesis.xhtml" />
 			</navPoint>
+			<navPoint id="num_3" playOrder="3">
+				<navLabel>
+					<text>Exodus</text>
+				</navLabel>
+				<content src="exodus.xhtml" />
+			</navPoint>
 
 			<navPoint id="num_22" playOrder="22">
 				<navLabel>
