@@ -9,12 +9,10 @@
   </metadata>
   <manifest>
     <item href="matthew.xhtml" id="matthew" media-type="application/xhtml+xml" />
-    <item href="mark.xhtml" id="mark" media-type="application/xhtml+xml" />
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="matthew" />
-    <itemref idref="mark" />
   </spine>
   <guide/>
 </package>
